@@ -1,0 +1,10 @@
+# Required system dependencies for building CPython for Android
+llvm
+lld
+readline
+mpdecimal
+dpkg
+pkg-config
+openssl
+xz
+zlib
