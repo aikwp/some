@@ -1,0 +1,24 @@
+# Core Buildbot components
+buildbot[bundle]==4.3.1
+buildbot-worker==4.3.1
+buildbot-www==4.3.1
+buildbot-console-view==4.3.1
+buildbot-grid-view==4.3.1
+buildbot-waterfall-view==4.3.1
+buildbot-wsgi-dashboards==4.3.1
+
+# Utilities and dependencies
+Jinja2==3.1.4
+Twisted[tls]==24.7.0
+SQLAlchemy==2.0.34
+alembic==1.14.0
+txrequests==1.0.8
+autobahn==23.6.2
+requests==2.32.3
+pyOpenSSL==24.2.1
+cryptography==43.0.1
+service_identity==24.1.0
+
+# Packaging tools
+dpkg==1.22.6
+mpdecimal==2.5.1
